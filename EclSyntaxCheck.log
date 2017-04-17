@@ -1,0 +1,11 @@
+Initializing log file: C:\Projects\PeopleAnalytics\workshop\ECL Syntax Check\EclSyntaxCheck.log
+Detected PowerShell version: 5.0.10586.672
+Configuration (from ECLSyntaxCheck.config.ps1)
+- Relative Path to code directory    : .\..
+- Relative Path to imports directory : .\..
+- Log file name                      : EclSyntaxCheck.log
+- Ignore Warnings                    : True
+- Exclude Directories                : DataPatterns ECL Syntax Check WIP
+- HPCC Client Tools path             : C:\Program Files (x86)\HPCCSystems\6.0.2\clienttools\bin
+Starting ECL SyntaxCheck...
+System.Management.Automation.RuntimeException: Cannot find eclcc C:\Program Files (x86)\HPCCSystems\6.0.2\clienttools\bin\eclcc.exe. Please install correct version from https://hpccsystems.com/download/developer-tools/client-tools
